@@ -1,0 +1,165 @@
+:root {
+    --main-bg-color: #1a1a1c;
+    --main-text-color: #fff;
+    --secondary-text-color: #ccc;
+    --main-element-bg-color: #151515;
+    --secondary-element-bg-color: #131313;
+    --secondary2-element-bg-color: #0f0f0f;
+    --third-element-bg-color: #222;
+    --mopaiv-blue: #007bff;
+}
+
+body, html {
+    background-color: var(--main-bg-color);
+}
+
+p.text-center {
+    color: var(--main-text-color);
+}
+
+.navbar {
+    background-color: var(--main-element-bg-color);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card {
+    background-color: var(--main-element-bg-color);
+}
+
+.landing-header {
+    background-color: var(--secondary-element-bg-color) !important;
+}
+
+.card * {
+    color: var(--main-text-color);
+}
+
+.text-muted, .text-truncate {
+    color: var(--secondary-text-color);
+}
+
+#tabName, h1, h2, h3, h4, h5, h6 {
+    color: var(--main-text-color);
+}
+
+.nav-pills .nav-link, .nav-pills .nav-link:hover, .nav-pills .nav-link:focus {
+    background-color: var(--main-element-bg-color);
+    color: var(--main-text-color);
+}
+
+.card .nav-pills .nav-link:hover {
+    background-color: var(--secondary-element-bg-color);
+    color: var(--main-text-color);
+}
+
+.nav-pills .nav-link.active, .nav-pills .nav-link.active:hover, .nav-pills .nav-link.active:focus {
+    background-color: var(--mopaiv-blue);
+    color: var(--main-text-color);
+}
+
+.img-holder, .card-top, .card .card-top {
+    background-color: var(--secondary-element-bg-color) !important;
+}
+
+.form-control, .form-control:hover, .form-control:focus {
+    background-color: var(--main-element-bg-color);
+    border-color: #000;
+}
+
+.card .form-control, .card .form-control:hover, .card .form-control:focus {
+    background-color: var(--secondary-element-bg-color);
+    border-color: #000;
+}
+
+.form-control, .form-control:focus {
+    color: var(--main-text-color);
+}
+
+.form-control::placeholder {
+    color: var(--secondary-text-color);
+}
+
+a {
+    color: var(--secondary-text-color) !important;
+}
+
+a:hover, a:focus {
+    color: var(--main-text-color);
+}
+
+.col-md.text-center-sm.align-self-center.hide-sm span, .col-md.text-center-sm.align-self-center span {
+    color: var(--secondary-text-color);
+}
+
+.nav-item a:hover, .nav-item a:focus {
+    background-color: var(--secondary-element-bg-color) !important;
+}
+
+.border-right, .border-left {
+    border-color: #111 !important;
+}
+
+.nav-item.dropdown .dropdown-menu {
+    background-color: var(--main-element-bg-color);
+    border: .1px solid #000;
+}
+
+.dropdown-menu {
+    box-shadow: 0 8px 8px -4px var(--main-element-bg-color);
+    /*box-shadow: 0 3px 10px var(--main-element-bg-color); */
+}
+
+.dropdown-divider {
+    border-color: #000;
+}
+
+hr {
+    border-color: #111;
+}
+
+.details, .copyright, .socials i {
+    color: var(--secondary-text-color) !important;
+}
+
+.copyright:after {
+    content: "Dark theme made by Index.";
+    display: block;
+}
+
+.modal-content {
+    border-color: var(--main-element-bg-color);
+}
+
+.modal-body {
+    background-color: var(--secondary-element-bg-color);
+}
+
+.modal-header, .modal-footer {
+    background-color: var(--main-element-bg-color);
+    border-color: var(--main-element-bg-color);
+}
+
+.col-md-2.text-center.text-truncate.hide-sm, .col-md-6.text-truncate {
+    color: var(--main-text-color);
+}
+
+.input-group-text {
+    background-color: var(--secondary2-element-bg-color);
+    border-color: #000;
+}
+
+.card[style="border-left:5px solid #1890ff;box-shadow:none;"] {
+    background-color: var(--main-bg-color);
+}
+
+.alert a {
+    color: var(--mopaiv-blue) !important;
+}
+
+div[style="color:inherit;font-size:20px;font-weight:600;"], h4[style="color:inherit;font-size:20px;font-weight:600;"] {
+    color: var(--secondary-text-color) !important;
+}
+
+pre[style="word-wrap: break-word; white-space: pre-wrap;"] {
+    color: var(--main-text-color);
+}
